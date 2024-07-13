@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2048 Game</title>
+        <link rel="icon" type="image/x-icon" href="./android-chrome-192x192.png">
+
+        <link rel="stylesheet" href="style.css">
+        
+
+        <script src="2048.js"></script>
+    </head>
+
+    <body>
+        <h1>2048</h1>
+        <hr>
+        <h2>Score: <span id="score">0</span></h2>
+        <div id="board">
+        </div>
+        <div id="instructions">
+            <h1>Instructions</h1>
+            <h2>Game objective:</h2>
+            <h3>Your goal is to slide numbered tiles around the grid to combine them and create a tile with the number 2048.</h3>
+            <h2>Game Controls:</h2>
+
+<h3>Use the arrow keys on your keyboard (Up, Down, Left, Right) to move all tiles in that direction.
+On mobile devices or touchscreen computers, you can often swipe in the direction you want the tiles to move.</h3>
+<h2>Gameplay Mechanics:</h2>
+
+<h3>Tiles slide as far as possible in the chosen direction until they are stopped by either another tile or the edge of the grid.
+If two tiles with the same number collide while moving, they merge into a tile with the sum of the two numbers.</h3>
+<h2>Scoring:</h2>
+
+<h3>Your score is based on the numbers on the merged tiles. Each merge adds to your score.</h3>
+<h2>Winning and Losing:</h2>
+
+<h3>You win the game when you create a tile with the number 2048.
+The game ends when the grid fills up and no more moves are possible.</h3>
+<h2>Strategies:</h2>
+
+<h3>Plan your moves ahead to keep higher-numbered tiles together and create opportunities for merging.
+Try to avoid filling up the board too quickly.</h3>
+        </div>
+    </body>
+</html>
